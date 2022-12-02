@@ -1,0 +1,68 @@
+* {
+    box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #da998b
+}
+
+header {
+    padding: 16px 24px;
+    margin-top: 32px;
+    background-color: #955142;
+    text-align: right;
+    border-bottom: 4px solid #1e0e09;
+} 
+
+li {
+    display: inline;
+    font-size: 20px;
+    margin: 24px;
+}
+
+a {
+    color:beige;
+    text-decoration: none;
+}
+.container {
+    background-color:#FAE3DE;
+    padding: 32px;
+    text-align: center;
+}
+
+img {
+    max-width: 950px;
+    border: 8px solid #1e0e09;
+}
+
+section {
+    margin: 32px;
+
+}
+
+#name-input, #email-input{
+    background-color: #955142;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#submit{
+    background-color:#671705;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    margin: 24px;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 32px;
+}
